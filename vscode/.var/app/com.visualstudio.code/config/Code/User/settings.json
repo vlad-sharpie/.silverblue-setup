@@ -1,0 +1,12 @@
+{
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "terminal.integrated.profiles.linux": {
+      "bash": {
+        "path": "/usr/bin/flatpak-spawn",
+        "args": ["--host", "toolbox", "enter"],
+        "icon": "terminal-bash",
+        "overrideName": true
+      }
+    },
+    "editor.minimap.enabled": false,
+}
